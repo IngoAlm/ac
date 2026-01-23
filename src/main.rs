@@ -1,13 +1,5 @@
 use std::env;
 
-/*fn make_vec (eingabe: String, operator: &str) -> (String, String) {
-    let zahlen_vec: Vec<&str> = eingabe.split(operator).collect();
-    //println!("{} {} ", zahlen_vec[0], zahlen_vec[1]);
-    (zahlen_vec[0].to_string(), zahlen_vec[1].to_string())
-
-    //let ergebnis = berechnen(zahlen_vec[0].parse().unwrap(), zahlen_vec[1].parse().unwrap(), operator);
-    //ergebnis
-}*/
 
 fn convert_to_float(zahl1: String, zahl2: String) -> (f64, f64) {
     let z1 = zahl1.parse::<f64>().unwrap();

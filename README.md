@@ -1,3 +1,5 @@
 # ac
 Taschenrechner für das Terminal. 'ac' setzt sich aus dem Namen Alm und Calculator zusammen.
-Erstmal nur die vier Grundrechenarten.
+
+Die vier Grundrechenarten und Modulo sind möglich. Bei der Eingabe muss vor dem * ein Backslash stehen.
+
